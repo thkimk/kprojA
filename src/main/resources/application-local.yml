@@ -1,0 +1,21 @@
+server:
+  port: 8080
+#    tomcat:
+#      threads:
+#        max: 10
+
+
+#logging:
+#  register-shutdown-hook: false
+#  config: classpath:logback-local.xml
+  level:
+    root: DEBUG
+    com.hanwha.tax: DEBUG
+#    com: DEBUG
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
+
